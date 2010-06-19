@@ -1,0 +1,31 @@
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:14: error: no declaration of property 'eventID' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:15: error: no declaration of property 'publicID' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:16: error: no declaration of property 'title' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:17: error: no declaration of property 'description' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:18: error: no declaration of property 'hashTag' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:19: error: no declaration of property 'hostedBy' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:20: error: no declaration of property 'canceled' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:21: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:22: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:23: error: no declaration of property 'isPublic' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:24: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:25: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:26: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:27: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:28: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:29: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:30: error: no declaration of property 'locationName' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:31: error: no declaration of property 'locationAddress' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:32: error: no declaration of property 'locationThoroughfare' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:33: error: no declaration of property 'locationCity' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:34: error: no declaration of property 'locationRegion' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:35: error: no declaration of property 'locationCountry' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:36: error: no declaration of property 'locationCountryCode' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:37: error: no declaration of property 'locationZip' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:38: error: expected specifier-qualifier-list before 'CLLocationDegrees'
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:39: error: expected specifier-qualifier-list before 'CLLocationDegrees'
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:40: error: no declaration of property 'invitation' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:41: error: no declaration of property 'invitationTiny' found in the interface
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:42: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:43: error: property cannot be declared inside @implemenation context
+/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m:44: error: property cannot be declared inside @implemenation context

@@ -1,0 +1,446 @@
+TTwitAttend
+v7
+r0
+t298630198.250189
+cCheck dependencies
+cProcessInfoPlistFile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/Info.plist TwitAttend-Info.plist
+cCompileXIB /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/MainWindow.xib
+cCompileXIB /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/RootViewController.xib
+cCompileXIB /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.xib
+cProcessPCH /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch.gch TwitAttend_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/main.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TwitAttendAppDelegate.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TwitAttendAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/RootViewController.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEvent.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEventParser.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEventParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/SimpleXml.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/SimpleXml.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/EventViewController.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend normal i386
+cGenerateDSYMFile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app.dSYM /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend
+cTouch /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004B2B61C3000000000004AFC0
+t1261134275
+s307136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004B2B61BC00000000000001AF
+t1261134268
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.h
+c000000004C1C818100000000000001A2
+t1276936577
+s418
+i<UIKit/UIKit.h>
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.m
+c000000004C1C80330000000000001270
+t1276936243
+s4720
+i"EventViewController.h"
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.xib
+c000000004C1C81D90000000000004A48
+t1276936665
+s19016
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/RootViewController.h
+c000000004C1C7AA000000000000001B5
+t1276934816
+s437
+i<UIKit/UIKit.h>
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/RootViewController.m
+c000000004C1C84A9000000000000195D
+t1276937385
+s6493
+i"RootViewController.h"
+i"EventViewController.h"
+i"TwitAttendAppDelegate.h"
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/SimpleXml.h
+c000000004C1C5ABD0000000000000403
+t1276926653
+s1027
+i<Foundation/Foundation.h>
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/SimpleXml.m
+c000000004C1C5ABD0000000000000E85
+t1276926653
+s3717
+i"SimpleXml.h"
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.h
+c000000004C1C3D5D0000000000000A42
+t1276919133
+s2626
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m
+c000000004C1C3D4C00000000000003BF
+t1276919116
+s959
+i"TAEvent.h"
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEventParser.h
+c000000004C1C45DB000000000000018C
+t1276921307
+s396
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"TAEvent.h"
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEventParser.m
+c000000004C1C45DB0000000000000975
+t1276921307
+s2421
+i"TAEventParser.h"
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAParser.h
+c000000004C1C412700000000000000DB
+t1276920103
+s219
+i<Foundation/Foundation.h>
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAParser.m
+c000000004C1C412700000000000000C3
+t1276920103
+s195
+i"TAParser.h"
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TwitAttendAppDelegate.h
+c000000004C1C74FC00000000000003D1
+t1276933372
+s977
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TwitAttendAppDelegate.m
+c000000004C1C7B930000000000000FC2
+t1276935059
+s4034
+i"TwitAttendAppDelegate.h"
+i"RootViewController.h"
+i"TAEventParser.h"
+i"TAEvent.h"
+i"SimpleXml.h"
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/EventViewController.xib
+c000000004C1C57390000000000001643
+t1276925753
+s5699
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/MainWindow.xib
+c000000004C1C75280000000000005D24
+t1276933416
+s23844
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/RootViewController.xib
+c000000004C1C76800000000000004919
+t1276933760
+s18713
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/TwitAttend_Prefix.pch
+c000000004C1C31A70000000000000146
+t1276916135
+s326
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app
+t1276937398
+s272
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app.dSYM
+t1276937398
+s102
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/EventViewController.nib
+t1276936668
+s1617
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/Info.plist
+t1276916149
+s605
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/MainWindow.nib
+t1276933724
+s2026
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/PkgInfo
+t1276916149
+s8
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/RootViewController.nib
+t1276933764
+s1583
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend
+t1276937398
+s57292
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/EventViewController.o
+t1276936629
+s35760
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/RootViewController.o
+t1276937398
+s48184
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/SimpleXml.o
+t1276926653
+s22380
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEvent.o
+t1276919134
+s28804
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEventParser.o
+t1276922255
+s13628
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAParser.o
+t2
+s0
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TwitAttend.LinkFileList
+c000000004C1C57FB00000000000003FE
+t1276925947
+s1022
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TwitAttendAppDelegate.o
+t1276935059
+s49684
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/main.o
+t1276916150
+s5968
+
+N/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/main.m
+c000000004C1C31A7000000000000016E
+t1276916135
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch.gch
+t1276916150
+s13026768
+
+NTwitAttend-Info.plist
+c000000004C1C31A7000000000000038D
+t1276916135
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298630198#298630198#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/EventViewController.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298629429.395749
+e298629429.481645
+r1
+xCompileC
+xbuild/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/EventViewController.o
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.m298629429#298629429#0(0"0(0#0#77"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.m4300911832#2056"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-generated-files.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-own-target-headers.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-all-target-headers.hmap -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-project-headers.hmap -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/include -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources/i386 -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources -include /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.m -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/EventViewController.o0#
+
+CCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/RootViewController.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298630198.034361
+e298630198.168117
+r1
+xCompileC
+xbuild/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/RootViewController.o
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/RootViewController.m298630198#298630198#0(0"0(0#0#76"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/RootViewController.m4300911832#2054"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-generated-files.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-own-target-headers.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-all-target-headers.hmap -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-project-headers.hmap -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/include -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources/i386 -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources -include /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/RootViewController.m -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/SimpleXml.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/SimpleXml.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298619453.609937
+e298619453.721010
+r1
+xCompileC
+xbuild/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/SimpleXml.o
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/SimpleXml.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/SimpleXml.m298619453#298619453#0(0"0(0#0#67"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/SimpleXml.m4300911832#2036"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-generated-files.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-own-target-headers.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-all-target-headers.hmap -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-project-headers.hmap -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/include -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources/i386 -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources -include /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/SimpleXml.m -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/SimpleXml.o0#
+
+CCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEvent.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298611934.490871
+e298611934.605774
+r1
+xCompileC
+xbuild/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEvent.o
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m298611934#298611934#0(0"0(0#0#65"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m4300911832#2032"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-generated-files.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-own-target-headers.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-all-target-headers.hmap -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-project-headers.hmap -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/include -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources/i386 -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources -include /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEvent.m -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEvent.o0#
+
+CCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEventParser.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEventParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298615055.642614
+e298615055.801764
+r1
+xCompileC
+xbuild/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEventParser.o
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEventParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEventParser.m298615055#298615055#0(0"0(0#0#71"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEventParser.m4300911832#2044"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-generated-files.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-own-target-headers.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-all-target-headers.hmap -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-project-headers.hmap -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/include -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources/i386 -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources -include /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAEventParser.m -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAEventParser.o0#
+
+CCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TAParser.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TAParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TwitAttendAppDelegate.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TwitAttendAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298627859.446533
+e298627859.733928
+r1
+xCompileC
+xbuild/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TwitAttendAppDelegate.o
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TwitAttendAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TwitAttendAppDelegate.m298627859#298627859#0(0"0(0#0#79"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TwitAttendAppDelegate.m4300911832#2060"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-generated-files.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-own-target-headers.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-all-target-headers.hmap -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-project-headers.hmap -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/include -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources/i386 -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources -include /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/TwitAttendAppDelegate.m -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TwitAttendAppDelegate.o0#
+
+CCompileC build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/main.o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298608950.827320
+e298608950.922711
+r1
+xCompileC
+xbuild/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/main.o
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/main.m298608950#298608950#0(0"0(0#0#54"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/main.m4300911832#2018"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-generated-files.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-own-target-headers.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-all-target-headers.hmap -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-project-headers.hmap -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/include -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources/i386 -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources -include /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/main.m -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.xib
+s298629467.672670
+e298629468.216999
+r1
+xCompileXIB
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.xib
+lSLF07#2@42"CompileXIB Classes/EventViewController.xib298629467#298629468#0(0"0(0#0#79"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.xib4300911832#538"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/EventViewController.nib /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/Classes/EventViewController.xib0#
+
+CCompileXIB /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/EventViewController.xib
+r0
+
+CCompileXIB /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/MainWindow.xib
+s298626523.404235
+e298626524.047246
+r1
+xCompileXIB
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib298626523#298626524#0(0"0(0#0#62"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/MainWindow.xib4300911832#512"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/MainWindow.nib /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/MainWindow.xib0#
+
+CCompileXIB /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/RootViewController.xib
+s298626564.223225
+e298626564.556182
+r1
+xCompileXIB
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib298626564#298626564#0(0"0(0#0#70"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/RootViewController.xib4300911832#528"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/RootViewController.nib /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/RootViewController.xib0#
+
+CGenerateDSYMFile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app.dSYM /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend
+s298630198.220650
+e298630198.247225
+r1
+xGenerateDSYMFile
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app.dSYM
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/TwitAttend.app.dSYM build/Debug-iphonesimulator/TwitAttend.app/TwitAttend298630198#298630198#0(0"0(0#0#101"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend4300911832#419"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app.dSYM0#
+
+CLd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend normal i386
+s298630198.168253
+e298630198.220542
+r1
+xLd
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend
+xnormal
+xi386
+lSLF07#2@106"Link /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend298630198#298630198#0(0"0(0#0#0"4300911832#948"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -filelist /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/Objects-normal/i386/TwitAttend.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/TwitAttend0#
+
+CProcessInfoPlistFile /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/Info.plist TwitAttend-Info.plist
+s298608949.531487
+e298608949.535869
+r1
+xProcessInfoPlistFile
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/Info.plist
+xTwitAttend-Info.plist
+lSLF07#2@29"Process TwitAttend-Info.plist298608949#298608949#0(0"0(0#0#69"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/TwitAttend-Info.plist32651595518902388#515"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TwitAttend-Info.plist -genpkginfo /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app/Info.plist0#
+
+CProcessPCH /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch.gch TwitAttend_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s298608949.932636
+e298608950.827211
+r1
+xProcessPCH
+x/var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch.gch
+xTwitAttend_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile TwitAttend_Prefix.pch298608949#298608950#0(0"0(0#0#69"/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/TwitAttend_Prefix.pch4300911832#1898"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-generated-files.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-own-target-headers.hmap -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-all-target-headers.hmap -iquote /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/TwitAttend-project-headers.hmap -F/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/include -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources/i386 -I/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/TwitAttend.build/Debug-iphonesimulator/TwitAttend.build/DerivedSources -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/TwitAttend_Prefix.pch -o /var/folders/HL/HLTv7sMCH0mwnbgCxbk3lE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwitAttend_Prefix-bjaxamuejdbuutdtdfoxkrmwatxn/TwitAttend_Prefix.pch.gch0#
+
+CTouch /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app
+s298630198.247324
+e298630198.250074
+r1
+xTouch
+x/Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app
+lSLF07#2@96"Touch /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app298630198#298630198#0(0"0(0#0#0"4300911832#299"    cd /Users/ttakeo/Documents/Sources/GOGA/TwitAttend    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ttakeo/Documents/Sources/GOGA/TwitAttend/build/Debug-iphonesimulator/TwitAttend.app0#
+
