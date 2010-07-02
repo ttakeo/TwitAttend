@@ -33,18 +33,7 @@ NSString * const TAEventsUpdateNotification = @"TAEventsUpdateNotification";
     locationManager = [[CLLocationManager alloc] init];
     locationManager.delegate = self;
     [locationManager startUpdatingLocation];
-    
-    
-    //TAEventParser *parser = [[TAEventParser alloc] init];
-    //[parser eventsForLocation:nil];
-    
-	//self.searchBar.delegate = self;
-	//self.searchBar.showsCancelButton = YES;
-	//NSLog(@"searchBar:%@", searchBar);
-	// note: here you can also change its "tintColor" property to a different UIColor
-	
-	//[self.view addSubview: self.mySearchBar];
-    
+        
 	return YES;
 }
 
@@ -71,9 +60,17 @@ NSString * const TAEventsUpdateNotification = @"TAEventsUpdateNotification";
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
 {
     NSLog(@"location:%@", newLocation);
-    self.events = [self eventsForLocation:newLocation];
+    //self.events = [self eventsForLocation:newLocation];
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObjectsAndKeys:newLocation, @"newLocation", nil];
     [[NSNotificationCenter defaultCenter] postNotification:
-     [NSNotification notificationWithName:TAEventsUpdateNotification object:self]];
+     [NSNotification notificationWithName:TAEventsUpdateNotification object:self userInfo:userInfo]];
+    
+    [locationManager stopUpdatingLocation];
+}
+
+- (void)updateLocation
+{
+    [locationManager startUpdatingLocation];
 }
 
 - (NSArray *)eventsForLocation:(CLLocation *)aLocation

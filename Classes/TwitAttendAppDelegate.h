@@ -30,6 +30,8 @@ extern NSString * const TAEventsUpdateNotification;
 
 @property (nonatomic, retain) NSArray *events;
 
+
+- (void)updateLocation;
 - (NSArray *)eventsForLocation:(CLLocation *)aLocation;
 - (NSArray *)eventsForKeyword:(NSString *)keyword;
 - (NSArray *)guestsForPublicID:(NSString *)publicID;

@@ -28,6 +28,10 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(update:) name:TAEventsUpdateNotification object:nil];
 
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(toggleLocation:)];
+    self.navigationItem.leftBarButtonItem = item;
+    [item release];
+    
 
     ((UITableView *)self.view).tableHeaderView = searchBar;
     searchBar.delegate = self;
@@ -145,14 +149,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 	
-	 EventViewController *eventViewController = [[EventViewController alloc] initWithNibName:@"EventViewController" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:eventViewController animated:YES];
-	 [eventViewController release];
-	 
+    EventViewController *eventViewController = [[EventViewController alloc] initWithNibName:@"EventViewController" bundle:nil];
+    // ...
+    // Pass the selected object to the new view controller.
+    [self.navigationController pushViewController:eventViewController animated:YES];
+    [eventViewController release];
+    
     TwitAttendAppDelegate *appDelegate = (TwitAttendAppDelegate *)[[UIApplication sharedApplication] delegate];
-
+    
     NSDictionary *event = [self.events objectAtIndex:indexPath.row];
     NSString *publicID = [event objectForKey:@"public_id"];
     eventViewController.title = [event objectForKey:@"title"];
@@ -165,12 +169,13 @@
 #pragma mark -
 #pragma mark Search bar delegate
 
-- (IBAction)searchBarSearchButtonClicked:(UISearchBar *)theSearchBar {
-    //NSLog(@"theSearchBar:%@", theSearchBar);
+- (IBAction)searchBarSearchButtonClicked:(UISearchBar *)theSearchBar
+{
+    [searchBar resignFirstResponder];
+    
     TwitAttendAppDelegate *appDelegate = (TwitAttendAppDelegate *)[[UIApplication sharedApplication] delegate];
     self.events = [appDelegate eventsForKeyword:searchBar.text];
     
-    [searchBar resignFirstResponder];
     [(UITableView *)self.view reloadData];
 }
 
@@ -179,12 +184,20 @@
     [searchBar resignFirstResponder];
 }
 
+- (IBAction)toggleLocation:(id)sender
+{
+    TwitAttendAppDelegate *appDelegate = (TwitAttendAppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate updateLocation];
+}
+
 - (void)update:(NSNotification *)aNotification
 {
     //NSLog(@"update:%@", self.view);
+    NSDictionary *userInfo = [aNotification userInfo];
+    CLLocation *location = [userInfo objectForKey:@"newLocation"];
 
     TwitAttendAppDelegate *appDelegate = (TwitAttendAppDelegate *)[[UIApplication sharedApplication] delegate];
-    self.events = [appDelegate events];
+    self.events = [appDelegate eventsForLocation:location];
     
     [(UITableView *)self.view reloadData];
 }

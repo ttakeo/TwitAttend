@@ -88,6 +88,16 @@
     // Configure the cell...
     NSDictionary *guest = [guests objectAtIndex:indexPath.row];
     cell.textLabel.text = [guest objectForKey:@"name"];
+    UIImage *profileImage = nil;
+    NSString *profileURLString = [guest objectForKey:@"profile_image_url"];
+    if ( profileURLString != nil ) {
+        NSData *profileImageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:profileURLString]];
+        if ( profileImageData != nil ) {
+            profileImage = [UIImage imageWithData:profileImageData];
+            [cell.imageView setImage:profileImage];
+        }
+        [profileImageData release];
+    }
     return cell;
 }
 
